@@ -10,4 +10,6 @@ let arg = process.argv.slice(2);
 console.log( process.argv, 'process.argv');
 
 const numbers = require('./app.js');
-console.log( numbers.Application(array));
+//const numbersarr = []Math.random;
+const numbersarr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+console.log( numbers.Application(numbersarr));

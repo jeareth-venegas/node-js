@@ -9,19 +9,14 @@
 
 // Math.random, array.sort(),Math.max() y Math.min(),array.push()
 
-
-// exports.Application = function(array){ let array = [];}
-// exports.Application = for (let i = 0; i< array.length; i++) {
-// array.forEach(function(arr).Math.random)
-
-
 //funcion que recibe informacion de los numeros dentro del array
-const array = [];
 const plus = 0;
 exports.Application = function(array){
+    //const array = [].Math.random(20);
+    const array = [];
     //suma
     for (let i = 0; i< array.length; i++){
-        plus =+ array[1];
+        plus =+ array[i];
     }
     //array.sort()
     //menor a mayor
@@ -33,3 +28,6 @@ exports.Application = function(array){
 }
 
 
+// exports.Application = function(array){ let array = [];}
+// exports.Application = for (let i = 0; i< array.length; i++) {
+// array.forEach(function(arr).Math.random)
