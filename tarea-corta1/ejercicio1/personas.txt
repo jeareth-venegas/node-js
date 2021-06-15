@@ -1,0 +1,7 @@
+Nombre,Apellido,Edad
+Jack,Murphy,35
+George,Smith,22
+Oliver,Brown,20
+James,Anderson,23
+Charlie,Rodriguez,38
+William,Walsh,25
