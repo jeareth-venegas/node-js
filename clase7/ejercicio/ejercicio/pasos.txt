@@ -1,0 +1,15 @@
+Desarrolle un programa que almacene las siguientes frutas en un arreglo: Manzana, Pera, Uva, Sandía, Banano, Melocotón, Piña, Maracuyá, Mandarina, Mango:
+a. Permitir al usuario ingresar el nombre de una fruta.	
+b. Si la fruta se encuentra en el arreglo, mostrar un mensaje al usuario
+c. Si la fruta no se encuentra en el arreglo, mostrar un mensaje al usuario
+
+Pasos a seguir:
+
+-Se crea un arreglo para almacenar las frutas .
+-Se le pide al usuario que escriba el nombre de una fruta "Adivina cuál fruta está dentro de esta caja"
+-Si el nombre que escribe el usuario es igual a alguna que esté dentro del array:
+    -se hace un for que recorre el array para comprobar
+    -se imprime un mensaje que diga "la fruta está en esta caja"
+-Si el nombre que escribe el usuario no está dentro del array
+    -se hace un for que recorre el array para comprobar
+    -se imprime un mensaje: "Esta fruta no está dentro de esta caja"

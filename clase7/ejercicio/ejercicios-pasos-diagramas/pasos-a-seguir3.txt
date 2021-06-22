@@ -1,0 +1,6 @@
+Desarrollo un algoritmo que permita leer tres números enteros y luego determine cuál es el mayor
+
+- Se le indica al usuario que escriba tres de números enteros 
+- Si los números que el usuario escribió no cumple con los requisitos de ser un número entero, sale un mensaje de error y que intente de nuevo
+- Si lo escribe correctamente se analizan los tres números para determinar cuál es el mayor
+- Se imprime el numero mayor

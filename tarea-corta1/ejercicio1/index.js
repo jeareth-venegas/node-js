@@ -3,7 +3,7 @@
 // la información debe almacenarse separada por comas(,):
 const fs = require("fs");
 let path = process.cwd();
-const data = JSON.stringify(personas);
+// const data = JSON.stringify(personas);
 
 let personas = ["Nombre", "Apellido", "Edad", "Oliver", "Brown", 20, "Jack", "Murphy", 35, "Charlie", "Rodriguez", 38, "George", "Smith", 22, "James", "Anderson", 23, "William", "Walsh", 25];
 

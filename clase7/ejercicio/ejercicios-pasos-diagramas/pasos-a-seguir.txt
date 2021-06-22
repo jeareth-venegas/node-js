@@ -1,0 +1,10 @@
+Desarrollo un algoritmo que permita leer un número entero y determine si es un número terminado en 4.
+
+1. Describir al usuario que el programa recibe números enteros
+2. Recibir el número entero que le proporcionan
+3. Analizar cada número para saber si es un número entero
+4. Si el usuario escribe algo que no se espera informar un error
+5. Si es un numero entero está correcto
+6. Determinar si finaliza con el número cuatro 
+7. Si finaliza en cuatro está bien
+7. si no finaliza con el número cuatro...

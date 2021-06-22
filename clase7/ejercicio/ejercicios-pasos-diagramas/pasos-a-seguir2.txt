@@ -1,0 +1,8 @@
+Desarrollo un algoritmo que permita dividir dos números enteros positivos,
+recuerde que la división entre 0 da un error
+
+- Se le indica al usuario que escriba un par de números enteros positivos para poder hacer la división
+-Si los números que escribió el usuario son igual a cero, sale un mensjae de error y que intente de nuevo
+- Si los números que el usuario escribió no cumple con los requisitos, sale un mensaje de error y que intente de nuevo
+-Si lo escribe correctamente se hace la fórmula de la división
+- Se imprime el resultado de la división en la pantalla

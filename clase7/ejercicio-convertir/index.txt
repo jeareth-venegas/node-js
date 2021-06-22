@@ -1,0 +1,13 @@
+// Convertir 100 dólares a colones
+
+// PASOS:
+// Verificar el valor del dólar y del colón
+// Investigar cuál es la fórmula para realizar la conversión
+// Contar el dinero en dólares
+// Realizar la fórmula con el resultado del dinero que se contó para saber el aproximado de colones que sería
+// Crear una cuenta de ahorros para meter el dinero
+// Solicitar un intercambio de dólares a colones
+// Solicitar el dinero en efectivo pero en colones
+// Verificar el comprobante para ver si el monto recibido está correcto
+
+

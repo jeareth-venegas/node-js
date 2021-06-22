@@ -9,19 +9,17 @@ let path = process.cwd();
 const movies = []
 // const data = JSON.stringify(movies);
 
-fs.readFile(`${path}/disney_movies.txt`, 'utf8', function(err, data){
+fs.readFile(`${path}/disney_movies.txt`, "UTF8", function(err, movies){
     if(err)
-        return console.error(err);
-    // console.log(JSON.stringify(data));
+        return console.error(err)
+
+    const convertidor = movies.split(/\r?\n/);
+
+    for (i in convertidor) {
+        let pelicula = convertidor[i].split(';');
+        fs.appendFile('disney_list.txt', `Movie: ${pelicula[0]}\nRelease Date: ${pelicula[1]}\nGenre: ${pelicula[2]}\n \n`, function (err) {
+            if (err)
+                return console.error(err)
+        });
+    }
 });
-
-const feedLine = movies.split(/\r?\n/)
-
-for(let i = 0; i < feedLine.length; i++){
-    let movies = feedLine[i].split(';');
-
-fs.appendFile(`${path}/peliculas.txt`, `Nombre: ${movies[i]}\n, Fecha: ${movies[i+1]}\n, Género:${movies[i+2]}\n \n`, function(err, data){
-    if(err)
-        return console.error(err);
-    console.log("Archivo creado y salvado");
-}}

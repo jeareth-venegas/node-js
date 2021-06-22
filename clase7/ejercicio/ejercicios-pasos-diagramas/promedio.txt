@@ -1,0 +1,10 @@
+Desarrollo un algoritmo que permita determinar si un estudiante, aprueba el curso,
+tiene que ir a convocatoria o definitivamente no paso el curso. La nota mínima para aprobar el curso es de 70,
+si el estudiante obtuvo una nota entre 60 y 69 tiene derecho de ir a convocatoria, 
+pero si la nota es inferior a 60, el estudiante reprobó el curso.
+
+-Se introduce la nota del estudiante
+-Si la nota es = 70 aprueba
+-Si la nota es >= a 60 && <=69 tiene derecho a convocatoria
+-Si la nota es < 60 el estudiante reprobó.
+-se imprimen los resultados
