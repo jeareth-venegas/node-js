@@ -1,0 +1,8 @@
+//npm i express
+//npm install body-parser
+
+//Method:           Meaning:
+//GET               Read data
+//POST              insert data
+//PUT or PATCH      update data or insert
+//DELETE            delete data

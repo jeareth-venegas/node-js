@@ -1,0 +1,3 @@
+Pug es otra librería 
+1. npm i express
+2. npm i pug
